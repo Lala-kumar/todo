@@ -1,0 +1,27 @@
+/* You can set the margin property to auto to horizontally center the element within its container. */
+.input {
+  padding: 2rem; 
+  width: 40rem;
+  max-width: 90%;
+  margin: 3rem auto;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
